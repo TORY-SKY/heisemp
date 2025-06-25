@@ -34,8 +34,8 @@ body {
     background-repeat: no-repeat;
     filter: blur(10px); /* Adjust the blur intensity */
     z-index: -1; /* Place it behind the actual content */
-    filter: blur(1px); /* Adjust pixel value for desired blur */
-  -webkit-filter: blur(1px);
+    filter: blur(7px); /* Adjust pixel value for desired blur */
+  -webkit-filter: blur(7px);
   background-color: black;
 }
 .header h1 {
@@ -137,27 +137,29 @@ body {
   <!-- THREE RESPONSIVE BANNERS -->
 <section class="banner-section">
 
-  <div class="banner">
-    
-    <h3>Printing Store</h3>
-    <img src="im2.jpg">
-    <p>Personalized printing services for every occasion!</p>
-    <!-- <a href="nextpage.html" class="banner-button">Explore</a> -->
-  </div>
-
-  <div class="banner">
-    <img src="im3.jpg">
-    <h3>Freelancing</h3>
-    <p>Grab the best fashion and accessories at amazing prices!</p>
-    <!-- <a href="nextpage.html" class="banner-button">Explore</a> -->
-  </div>
-
-  <div class="banner">
+<div class="banner">
     <img src="im3.jpg">
     <h3>Visit our Store</h3>
     <p>Grab the best fashion and accessories at amazing prices!</p>
     <!-- <a href="https://www.heisempdesigns.online" class="banner-button">Explore</a> -->
   </div>
+  <div class="banner">
+    
+    
+    <img src="im2.jpg">
+    <p>Personalized printing services for every occasion!</p>
+    <h3>Printing Store</h3>
+    <!-- <a href="nextpage.html" class="banner-button">Explore</a> -->
+  </div>
+
+  <div class="banner">
+    <img src="im6.jpg">
+    <h3>Shop Online</h3>
+    <p>Grab the best fashion and accessories at amazing prices!</p>
+    <!-- <a href="nextpage.html" class="banner-button">Explore</a> -->
+  </div>
+
+  
 </section>
 
 </div>
@@ -170,6 +172,15 @@ body {
   
   <a id="shopButton" class="cta-button" href="https://www.thepacershub.store" target="_blank">Visit Our Store</a>
 </main>
+<!-- WHATSAPP CONTACT SECTION -->
+<section class="whatsapp-contact">
+  <div class="whatsapp-contact-inner">
+    <div class="whatsapp-icon">💬</div>
+    <h2 class="whatsapp-heading">Contact Me on WhatsApp</h2>
+    <p class="whatsapp-text">Have a question, need help, or want to place an order? Click the button below to chat with us directly on WhatsApp!</p>
+    <a href="https://wa.me/2349139963106" target="_blank" class="whatsapp-button">📱 Chat on WhatsApp</a>
+  </div>
+</section>
 <!-- CONTACT ME SECTION -->
 <section class="contact-me-section">
   <div class="contact-me-inner">
@@ -186,6 +197,9 @@ body {
     </form>
   </div>
 </section>
+
+
+
 
 
 <!-- PROFESSIONAL FOOTER -->
@@ -386,6 +400,61 @@ body {
 .contact-me-form button:hover {
   background-color: #e60069;
 }
+
+
+
+/*contact me on whatsapp*/
+/* WHATSAPP CONTACT STYLES */
+.whatsapp-contact {
+  padding: 3rem 1rem;
+  text-align: center;
+  background: linear-gradient(135deg, rgba(220, 255, 224, 0.9), rgba(255, 255, 255, 0.9));
+}
+
+.whatsapp-contact-inner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.whatsapp-icon {
+  font-size: 3rem;
+  color: #25d366;
+}
+
+.whatsapp-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin: 1rem 0;
+}
+
+.whatsapp-text {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 1rem 0 2rem;
+}
+
+.whatsapp-button {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  background-color: #25d366;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebd57;
+}
+
+
+
+
+
+
+
 
 
 
